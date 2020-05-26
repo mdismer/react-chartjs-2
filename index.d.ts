@@ -27,6 +27,7 @@ export interface ChartComponentProps {
   redraw?: boolean;
   width?: number;
   datasetKeyProvider?: (any: any) => any;
+  id?: string;
 }
 
 export interface LinearComponentProps extends ChartComponentProps {
